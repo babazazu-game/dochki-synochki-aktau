@@ -30,4 +30,4 @@ html.photo-open,html.photo-open body{overflow:hidden}
 #info-dialog.lightbox p{font-size:15px;line-height:1.4;margin:0;text-align:center}
 @media(max-width:720px){#info-dialog.lightbox{width:100vw;height:100dvh;max-width:100vw;max-height:100dvh;border-radius:0;padding:62px 8px 14px}#info-dialog.lightbox p{font-size:14px}}
 
-.group-activity-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:24px}.group-activity-photos img{display:block;width:100%;height:300px;object-fit:contain;background:#f0f9ff;border-radius:20px}.program-header.group-program-header{display:block}@media(max-width:720px){.group-activity-photos{gap:10px;margin-bottom:20px}.group-activity-photos img{height:190px;border-radius:14px}}
+.group-activity-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:24px;align-items:start}.group-activity-photos img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:16px}.program-header.group-program-header{display:block}@media(max-width:720px){.group-activity-photos{gap:8px;margin-bottom:20px}.group-activity-photos img{border-radius:10px}}
